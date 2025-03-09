@@ -106,8 +106,8 @@ def get_week_of_month_2025(date_obj):
         tmp = date(next_month_year, next_month, d)
         if tmp.weekday() == 3:
             first_thursday_next = tmp
-            break
-    if not first_thursday_next:
+            break 
+    if not first_thursday_next: 
         return None
 
     next_month_week1_start = first_thursday_next - timedelta(days=3)
