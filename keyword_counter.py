@@ -43,7 +43,7 @@ def filter_multiple_keywords(df, keywords):
 # ─────────────────────────────────────────────────────────────
 def count_keyword_mentions_daily(df):
     """
-    (User, Date)가 중복된 행은 1일 1회로 계산.
+    (User, Date)가 중복된 행은 1일 1회로 계산. 
     -> pivot: 행=User, 열=날짜, 값=사용(1회 이상이면 1).
     -> 값은 하루 동안 키워드를 몇 번 썼는지 count로도 가능하지만,
        여기서는 중복 제거해 '1'씩만 카운트한다고 가정.
