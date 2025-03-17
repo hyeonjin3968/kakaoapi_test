@@ -14,7 +14,7 @@ message_data = {
         "web_url": "https://www.kakao.com"  # 링크 (선택사항)
     },
     "button_title": "자세히 보기"  # 버튼 제목 (선택사항)
-}
+} 
 
 # 헤더 설정 (액세스 토큰을 사용해 인증)
 headers = {

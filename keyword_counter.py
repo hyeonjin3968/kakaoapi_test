@@ -282,7 +282,7 @@ if __name__ == "__main__":
             count3 = int(row3["MonthSum"])
             print(f"  3위 [@{name3}]님, 총 {count3}회 인증!")
 
-        print("--------------------------")
+        print("--------------------------") 
 
      except ValueError:
         print("정수(월) 또는 'q'만 입력 가능합니다. 다시 시도해주세요.")
