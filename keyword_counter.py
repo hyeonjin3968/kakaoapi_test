@@ -260,7 +260,7 @@ if __name__ == "__main__":
         # MonthSum 기준 내림차순 정렬
         df_temp_sorted = df_temp.sort_values("MonthSum", ascending=False).reset_index(drop=True)
 
-        # 상위 3명을 뽑아서 출력
+        # 상위 3명
         print(f"\n🔥이 달의 인증 왕🔥")
         print(f"{desired_month}월에 AI를 가장 많이 활용한 사람은?\n")
 
@@ -284,5 +284,5 @@ if __name__ == "__main__":
 
         print("--------------------------") 
 
-     except ValueError:
+     except ValueError: 
         print("정수(월) 또는 'q'만 입력 가능합니다. 다시 시도해주세요. ")

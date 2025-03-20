@@ -9,7 +9,7 @@ KAKAO_ACCESS_TOKEN = 'YOUR_KAKAO_ACCESS_TOKEN'  # 여기에 실제 액세스 토
 # 메시지 내용
 message_data = {
     "object_type": "text",  # 메시지 형식 (텍스트)
-    "text": "자동화된 메시지 테스트입니다. 성공적으로 전송되었습니다!",  # 보낼 메시지 내용
+    "text": "자동화된 메시지 테스트입니다. 성공적으로 전송되었습니다!",  # 보낼 메시지
     "link": {
         "web_url": "https://www.kakao.com"  # 링크 (선택사항)
     },
