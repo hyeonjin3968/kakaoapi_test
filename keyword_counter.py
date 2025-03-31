@@ -232,7 +232,7 @@ if __name__ == "__main__":
 
         desired_month = int(desired_month)
         if not (1 <= desired_month <= 12):
-            print("월은 1부터 12 사이의 정수를 입력하세요.")
+            print("월은 1부터 12 사이의 정수를 입력하세요..")
             continue
 
         date_cols = []
